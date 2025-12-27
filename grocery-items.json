@@ -4,7 +4,7 @@
         "category": "vegetales",
         "es": "batata",
         "en": "sweet potato",
-        "price": .77,
+        "price": 0.77,
         "unit": "ea",
         "location": "Aisle AB1",
         "url": "https://www.walmart.com/ip/Sweet-Potatoes-Whole-Fresh-Each-Batata-Mameya/44390964?classType=REGULAR&athbdg=L1300&from=/search"
@@ -830,3 +830,4 @@
         "url": ""
     }
 ]
+
