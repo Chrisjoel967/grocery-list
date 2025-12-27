@@ -564,7 +564,7 @@
         "category": "dispensa",
         "es": "ajo",
         "en": "garlic",
-        "price": .72,
+        "price": 0.72,
         "unit": "Each",
         "location": "Aisle AP10",
         "url": "https://www.walmart.com/ip/Garlic-Bulb-Fresh-Whole-Each/44391100?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1200&from=/search"
@@ -830,6 +830,7 @@
         "url": "https://www.walmart.com/ip/Great-Value-Fresh-Seal-Double-Zipper-Storage-Bags-Gallon-40-Count/11030056?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1102&from=/search"
     }
 ]
+
 
 
 
