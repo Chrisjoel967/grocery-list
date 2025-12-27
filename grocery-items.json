@@ -164,671 +164,672 @@
         "category": "frutas",
         "es": "kiwi",
         "en": "kiwi",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 6.94,
+        "unit": "2 lb Clamshell",
+        "location": "Aisle AP6",
+        "url": "https://www.walmart.com/ip/Fresh-Organic-Green-Kiwi-2-lb-Clamshell/465896238?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR"
     },
     {
         "id": "frutas_mandarina",
         "category": "frutas",
         "es": "mandarina",
         "en": "mandarin",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 6.67,
+        "unit": "5 lb Bag",
+        "location": "Aisle AP8",
+        "url": "https://www.walmart.com/ip/Fresh-Clementines-5-lb-Bag/44390951?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1300&from=/search"
     },
     {
         "id": "frutas_mango",
         "category": "frutas",
         "es": "mango",
         "en": "mango",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 5.44,
+        "unit": "16 oz Tray",
+        "location": "Aisle A1",
+        "url": "https://www.walmart.com/ip/Marketside-Mango-16-oz/28826837?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1300&from=/search"
     },
     {
         "id": "frutas_manzana",
         "category": "frutas",
         "es": "manzana",
         "en": "apple",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 1.06,
+        "unit": "Each",
+        "location": "Aisle AP8",
+        "url": "https://www.walmart.com/ip/Fresh-Honeycrisp-Apple-Each/44390950?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1300"
     },
     {
         "id": "frutas_melon",
         "category": "frutas",
         "es": "melon",
         "en": "melon",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 2.97,
+        "unit": "Each",
+        "location": "Aisle AP4",
+        "url": "https://www.walmart.com/ip/Cantaloupe-each/44390974?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&from=/search"
     },
     {
         "id": "frutas_pera",
         "category": "frutas",
         "es": "pera",
         "en": "pear",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 0.99,
+        "unit": "Each",
+        "location": "isle AP8",
+        "url": "https://www.walmart.com/ip/Fresh-Pears-Bartlett-Bulk-Each/12852163028?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1200&from=/search"
     },
     {
         "id": "frutas_sandia",
         "category": "frutas",
         "es": "sandia",
         "en": "watermelon",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 7.88,
+        "unit": "Each",
+        "location": "Aisle AP8",
+        "url": "https://www.walmart.com/ip/Fresh-Seedless-Watermelon-Each/44391101?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1200&from=/search"
     },
     {
         "id": "liquidos_jugo_china",
         "category": "liquidos",
         "es": "jugo de china",
         "en": "orange juice",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 7.96,
+        "unit": "89 Oz(11 servings)",
+        "location": "Aisle A33",
+        "url": "https://www.walmart.com/ip/Tropicana-Pure-Premium-No-Pulp-Original-Orange-Juice-89-Oz/22282247?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1600&from=/search"
     },
     {
         "id": "liquidos_jugo_mango",
         "category": "liquidos",
         "es": "jugo de mango",
         "en": "mango juice",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 3.94,
+        "unit": "64 fl oz(8 servings)",
+        "location": "Aisle A17",
+        "url": "https://www.walmart.com/ip/Juicy-Juice-100-Juice-Mango-64-fl-oz-Bottle/47133373?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&adsRedirect=true"
     },
     {
         "id": "liquidos_jugo_manzana",
         "category": "liquidos",
         "es": "jugo de manzana",
         "en": "apple juice",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 3.24,
+        "unit": "96 fl oz(12 servings)",
+        "location": "Aisle A17",
+        "url": "https://www.walmart.com/ip/Great-Value-100-Apple-Juice-96-fl-oz/10415325?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1200&from=/search"
     },
     {
         "id": "liquidos_leche",
         "category": "liquidos",
         "es": "leche",
         "en": "milk",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 6.38,
+        "unit": "96oz(12 servings)",
+        "location": "Aisle A33",
+        "url": "https://www.walmart.com/ip/Lactaid-1-Lowfat-Milk-96oz/564272599?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1100&from=/search"
     },
     {
         "id": "liquidos_limonada",
         "category": "liquidos",
         "es": "limonada",
         "en": "lemonade",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 2.84,
+        "unit": "52 fl oz(7 servings)",
+        "location": "Aisle A33",
+        "url": "https://www.walmart.com/ip/Minute-Maid-Zero-Sugar-Calorie-Lemonade-Juice-52-fl-oz-Bottle/769940946?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1600&from=/search"
     },
     {
         "id": "liquidos_yogurt",
         "category": "liquidos",
         "es": "yogurt",
         "en": "yogurt",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 4.74,
+        "unit": "32 oz Container(5 servings)",
+        "location": "Aisle A33",
+        "url": "https://www.walmart.com/ip/Stonyfield-Organic-Whole-Milk-Probiotic-Yogurt-Plain-32-oz/10805152?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&from=/search"
     },
     {
         "id": "carne_cadera",
         "category": "carne",
         "es": "cadera",
-        "en": "beef hip / roast",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "en": "Boneless Skinless Chicken Thighs",
+        "price": 9.78,
+        "unit": "2.75 - 4.0 lb Tray",
+        "location": "isle A36",
+        "url": "https://www.walmart.com/ip/Freshness-Guaranteed-Boneless-Skinless-Chicken-Thighs-2-75-4-0-lb-Tray/778091348?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1600&from=/search"
     },
     {
         "id": "carne_carne_molida",
         "category": "carne",
         "es": "carne molida",
         "en": "ground beef",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 7.47,
+        "unit": "1 lb Tray",
+        "location": "Aisle A36",
+        "url": "https://www.walmart.com/ip/93-Lean-7-Fat-Lean-Ground-Beef-1-lb-Tray-Fresh-All-Natural/824841960?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1300&from=/search"
     },
     {
         "id": "carne_milanesa",
         "category": "carne",
         "es": "milanesa",
-        "en": "breaded cutlet",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "en": "Skinless Chicken Breasts",
+        "price": 12.18,
+        "unit": "4.7-6.1 lb Tray",
+        "location": "Aisle A36",
+        "url": "https://www.walmart.com/ip/Boneless-Skinless-Chicken-Breasts-4-7-6-1-lb-Tray/27935840?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1600&from=/search"
     },
     {
         "id": "carne_muslos",
         "category": "carne",
         "es": "muslos",
-        "en": "chicken thighs",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "en": "Chicken Drumsticks",
+        "price": 5.88,
+        "unit": "4.25 - 6.7 lb",
+        "location": "Aisle A36",
+        "url": "https://www.walmart.com/ip/Tyson-All-Natural-Fresh-Chicken-Drumsticks-Family-Pack-4-25-6-7-lb-Tray/19400233?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&from=/search"
     },
     {
         "id": "carne_pavo",
         "category": "carne",
         "es": "pavo",
-        "en": "turkey",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "en": "Lean Ground Turkey",
+        "price": 6.36,
+        "unit": "1lb, Tray",
+        "location": "Aisle A36",
+        "url": "https://www.walmart.com/ip/JENNIE-O-Fresh-Lean-Ground-Turkey-93-Lean-7-Fat-All-Natural-Refrigerated-1-lb-Plastic-Tray/167794433?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&from=/search"
     },
     {
         "id": "carne_pechuga",
         "category": "carne",
         "es": "pechuga",
         "en": "chicken breast",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 13.50,
+        "unit": "2.75-3.8 lb. Tray",
+        "location": "Aisle A36",
+        "url": "https://www.walmart.com/ip/Perdue-Harvestland-Free-Range-Fresh-Boneless-Chicken-Breast-2-75-3-8-lb-Tray/19400236?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1300&from=/search"
     },
     {
         "id": "carne_sausages",
         "category": "carne",
         "es": "sausages",
         "en": "sausages",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 5.84,
+        "unit": "4 Count",
+        "location": "Aisle A35",
+        "url": "https://www.walmart.com/ip/Amylu-Foods-Roasted-Garlic-Asiago-Chicken-Sausages-12oz/15379674587?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1100&adsRedirect=true"
     },
     {
         "id": "marisco_camarones",
         "category": "marisco",
         "es": "camarones",
         "en": "shrimp",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 16.92,
+        "unit": "2 lb (31-40 Count per lb)",
+        "location": "Aisle A36",
+        "url": "https://www.walmart.com/ip/Great-Value-Frozen-Raw-Large-Peeled-Deveined-Tail-off-Shrimp-2-lb-31-40-Count-per-lb-Value-Bag/791288879?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&from=/search"
     },
     {
         "id": "marisco_salmon",
         "category": "marisco",
         "es": "salmon",
         "en": "salmon",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 8.92,
+        "unit": "4 servings",
+        "location": "isle A36",
+        "url": "https://www.walmart.com/ip/Marketside-Coho-Salmon-Skin-on-Fillet-Raised-Without-Antibiotics-Frozen-1-lb-Bag/5176689684?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1300&from=/search"
     },
     {
         "id": "marisco_tilapia",
         "category": "marisco",
         "es": "tilapia",
         "en": "tilapia",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 17.47,
+        "unit": "16 servings per container",
+        "location": "Aisle A36",
+        "url": "https://www.walmart.com/ip/Great-Value-Frozen-Tilapia-Skinless-Boneless-Fillets-4-lb/123210797?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1300&from=/search"
     },
     {
         "id": "picadera_almendras",
         "category": "picadera",
         "es": "almendras",
         "en": "almonds",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 10.48,
+        "unit": "18 Count",
+        "location": "isle A14",
+        "url": "https://www.walmart.com/ip/Emerald-Nuts-Variety-Pack-100-Calorie-Almonds-Walnuts-Cashews-18-Count/567732731?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&adsRedirect=true"
     },
     {
         "id": "picadera_galletas",
         "category": "picadera",
         "es": "galletas",
         "en": "crackers / cookies",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 1.84,
+        "unit": "4 Count",
+        "location": "Aisle A15",
+        "url": "https://www.walmart.com/ip/Great-Value-Saltine-Crackers-16-oz-4-Count/10315375?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1200&from=/search"
     },
     {
         "id": "picadera_popcorn",
         "category": "picadera",
         "es": "healthy pop corn",
         "en": "healthy popcorn",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 5.24,
+        "unit": "6 Count",
+        "location": "Aisle A14",
+        "url": "https://www.walmart.com/ip/SkinnyPop-Gluten-Free-Sea-Salt-Microwave-Popcorn-2-8-oz-6-Count/781201190?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&from=/search"
     },
     {
         "id": "picadera_humus",
         "category": "picadera",
         "es": "humus",
         "en": "hummus",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 3.97,
+        "unit": "10 oz Tub",
+        "location": "Aisle A38",
+        "url": "https://www.walmart.com/ip/Sabra-Classic-Original-Hummus-Fresh-10-oz-Plastic-Tub-Gluten-free-Serving-Size-2-tbsp/10850129?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1100&from=/search"
     },
     {
         "id": "vitaminas_c",
         "category": "vitaminas",
         "es": "C",
         "en": "Vitamin C",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 9.74,
+        "unit": "250 Count",
+        "location": "Aisle G11",
+        "url": "https://www.walmart.com/ip/Spring-Valley-Vitamin-C-with-Rose-Hips-Tablets-Dietary-Supplement-1-000-mg-250-Count/10315364?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1300"
     },
     {
         "id": "vitaminas_cq10",
         "category": "vitaminas",
         "es": "Cq10",
         "en": "CoQ10",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 16.98,
+        "unit": "120 Count",
+        "location": "Aisle G11",
+        "url": "https://www.walmart.com/ip/Spring-Valley-Rapid-Release-CoQ10-Heart-Health-Dietary-Supplement-Softgels-100-mg-60-Count/602853507?filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D"
     },
     {
         "id": "vitaminas_d",
         "category": "vitaminas",
         "es": "D",
         "en": "Vitamin D",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 6.88,
+        "unit": "250 Count",
+        "location": "Aisle G11",
+        "url": "https://www.walmart.com/ip/Spring-Valley-Vitamin-D3-Softgels-125-Mcg-per-Softgel-5-000-IU-250-Count/19758123?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1200&from=/search"
     },
     {
         "id": "vitaminas_e",
         "category": "vitaminas",
         "es": "E",
         "en": "Vitamin E",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 6.94,
+        "unit": "100 Count",
+        "location": "Aisle G11",
+        "url": "https://www.walmart.com/ip/Spring-Valley-Vitamin-E-Heart-Health-Dietary-Supplement-Soft-gels-180-mg-400-IU-100-Count/878710?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1200"
     },
     {
         "id": "vitaminas_multivitamina",
         "category": "vitaminas",
         "es": "multivitamina",
         "en": "multivitamin",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 14.96,
+        "unit": "170 Count",
+        "location": "Aisle G11",
+        "url": "https://www.walmart.com/ip/Centrum-Multigummies-Men-s-Gummy-Vitamins-Multivitamin-Supplement-Assorted-Fruit-170-Count/657790856?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&adsRedirect=true"
     },
     {
         "id": "vitaminas_omega3",
         "category": "vitaminas",
         "es": "Omega 3",
         "en": "Omega 3",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 14.97,
+        "unit": "120 Count",
+        "location": "isle G11",
+        "url": "https://www.walmart.com/ip/Spring-Valley-Proactive-Support-Omega-3-Mini-from-Fish-Oil-Dietary-Supplement-1000-mg-120-Count/634068132?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1102"
     },
     {
         "id": "vitaminas_prenatal",
         "category": "vitaminas",
         "es": "prenatal",
         "en": "prenatal vitamins",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 24.97,
+        "unit": "60 Ct",
+        "location": "Aisle G11",
+        "url": "https://www.walmart.com/ip/One-A-Day-Women-s-Prenatal-Multivitamin-with-Folic-Acid-DHA-and-Iron-60-Ct/39414713?adsRedirect=true"
     },
     {
         "id": "charcuteria_huevos",
         "category": "charcuteria",
         "es": "huevos",
         "en": "eggs",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 9.56,
+        "unit": "60 Count",
+        "location": "Aisle A34",
+        "url": "https://www.walmart.com/ip/Great-Value-Large-White-Eggs-60-Count/193637719?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1100&from=/search"
     },
     {
         "id": "charcuteria_jamon",
         "category": "charcuteria",
         "es": "jamon",
         "en": "ham",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 5.94,
+        "unit": "1 lb",
+        "location": "Aisle A35",
+        "url": "https://www.walmart.com/ip/Land-O-Frost-Premium-Meat-Sandwich-Sliced-Deli-Lunch-Meat-Black-Forest-Ham-1-lb/19276135?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1600&adsRedirect=true"
     },
     {
         "id": "charcuteria_queso",
         "category": "charcuteria",
         "es": "queso",
         "en": "cheese",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 2.82,
+        "unit": "8 oz",
+        "location": "Aisle A35",
+        "url": "https://www.walmart.com/ip/Cabot-Creamery-Extra-Sharp-Cheddar-Cheese-Bar-8-oz-Refrigerated/10315505?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR"
     },
     {
         "id": "charcuteria_turkey_bacon",
         "category": "charcuteria",
         "es": "turkey bacon",
         "en": "turkey bacon",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 4.48,
+        "unit": "12 servings",
+        "location": "Aisle A34",
+        "url": "https://www.walmart.com/ip/Great-Value-Naturally-Hardwood-Smoked-Uncured-Turkey-Bacon-10-oz/5490588995?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1200&from=/search"
     },
     {
         "id": "dispensa_aceite",
         "category": "dispensa",
         "es": "aceite",
         "en": "oil",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 14.67,
+        "unit": "25.4 fl Oz",
+        "location": "Aisle A9",
+        "url": "https://www.walmart.com/ip/Chosen-Foods-100-Pure-Avocado-Oil-25-4-Floz-Glass-Bottle-Non-GMO/147046935?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1600&adsRedirect=true"
     },
     {
         "id": "dispensa_adobo",
         "category": "dispensa",
         "es": "adobo",
         "en": "adobo seasoning",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 2.38,
+        "unit": "6 oz",
+        "location": "Aisle A5",
+        "url": "https://www.walmart.com/ip/Badia-The-Original-Complete-Seasoning-6-oz/47930634?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1600&from=/search"
     },
     {
         "id": "dispensa_ajo",
         "category": "dispensa",
         "es": "ajo",
         "en": "garlic",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": .72,
+        "unit": "Each",
+        "location": "Aisle AP10",
+        "url": "https://www.walmart.com/ip/Garlic-Bulb-Fresh-Whole-Each/44391100?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1200&from=/search"
     },
     {
         "id": "dispensa_avena",
         "category": "dispensa",
         "es": "avena",
         "en": "oats",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 4.57,
+        "unit": "42 oz",
+        "location": "Aisle A10",
+        "url": "https://www.walmart.com/ip/Quaker-Quick-1-Minute-Oats-Oatmeal-Quick-Cook-Oatmeal-42-oz-Canister/10312442?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1300&from=/search"
     },
     {
         "id": "dispensa_cereal",
         "category": "dispensa",
         "es": "cereal",
         "en": "cereal",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 6.97,
+        "unit": "1 Bag(6 servings)",
+        "location": "Aisle A6",
+        "url": "https://www.walmart.com/ip/SEVEN-GRN-FR-COCOA-CREAL-6-X-8-OZ/16351361295?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1200&adsRedirect=true"
     },
     {
         "id": "dispensa_harina_arepa",
         "category": "dispensa",
         "es": "harina de arepa",
         "en": "arepa flour",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 2.63,
+        "unit": "35.2 oz",
+        "location": "Aisle A7",
+        "url": "https://www.walmart.com/ip/GOYA-Pre-Cooked-White-Corn-Meal-35-20-Oz/46791755?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&from=/search"
     },
     {
         "id": "dispensa_harina_pancake",
         "category": "dispensa",
         "es": "harina de pancake",
         "en": "pancake mix",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 5.72,
+        "unit": "18 oz Box",
+        "location": "Aisle A9",
+        "url": "https://www.walmart.com/ip/Kodiak-Protein-Packed-Power-Cakes-Chocolate-Chip-Pancake-and-Waffle-Mix-18-oz-Box/199156958?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1200&adsRedirect=true"
     },
     {
         "id": "dispensa_paprika",
         "category": "dispensa",
         "es": "paprika",
         "en": "paprika",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 5.44,
+        "unit": "1.62 oz",
+        "location": "Aisle A5",
+        "url": "https://www.walmart.com/ip/McCormick-Gourmet-Organic-Paprika-1-62-oz-Bottle/48813527?classType=REGULAR&adsRedirect=true"
     },
     {
         "id": "dispensa_pasta",
         "category": "dispensa",
         "es": "pasta",
         "en": "pasta",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 0.98,
+        "unit": "16 oz",
+        "location": "Aisle A4",
+        "url": "https://www.walmart.com/ip/Great-Value-Spaghetti-16oz/10534115?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1200"
     },
     {
         "id": "dispensa_pimienta",
         "category": "dispensa",
         "es": "pimienta",
         "en": "pepper",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 3.66,
+        "unit": "3 oz",
+        "location": "Aisle A5",
+        "url": "https://www.walmart.com/ip/Great-Value-Ground-Black-Pepper-3-oz/44662573?classType=REGULAR&athbdg=L1600&from=/search"
     },
     {
         "id": "dispensa_quinoa",
         "category": "dispensa",
         "es": "quinoa",
         "en": "quinoa",
-        "price": null,
-        "unit": "",
+        "price": 5.74,
+        "unit": "32 oz",
         "location": "",
-        "url": ""
+        "url": "https://www.walmart.com/ip/Great-Value-Organic-White-Quinoa-32-oz/51258806?fulfillmentIntent=Shipping&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22Shipping%22%5D%7D%5D&classType=VARIANT&athbdg=L1600"
     },
     {
         "id": "dispensa_sal",
         "category": "dispensa",
         "es": "sal",
         "en": "salt",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 1.67,
+        "unit": "26 oz",
+        "location": "Aisle A5",
+        "url": "https://www.walmart.com/ip/Morton-Iodized-Table-Salt-All-Purpose-Iodized-Salt-for-Cooking-Seasoning-and-Baking-26-OZ-Canister/10448936?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1600&from=/search"
     },
     {
         "id": "dispensa_salsa_ceaser",
         "category": "dispensa",
         "es": "salsa ceaser",
         "en": "Caesar dressing",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 3.98,
+        "unit": "13 Fl oz",
+        "location": "isle A1",
+        "url": "https://www.walmart.com/ip/Marzetti-Creamy-Caesar-Refrigerated-Salad-Dressing-13-Fluid-oz-Jar/155889143?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&adsRedirect=true"
     },
     {
         "id": "dispensa_salsa_tomate",
         "category": "dispensa",
         "es": "salsa de tomate",
         "en": "tomato sauce",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 2.24,
+        "unit": "24 oz",
+        "location": "Aisle A4",
+        "url": "https://www.walmart.com/ip/Ragu-Simply-Traditional-Pasta-Sauce-24-oz/903073899?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&adsRedirect=true"
     },
     {
         "id": "dispensa_salsa_ranch",
         "category": "dispensa",
         "es": "salsa ranch",
         "en": "ranch dressing",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 5.53,
+        "unit": "22 oz",
+        "location": "Aisle A1",
+        "url": "https://www.walmart.com/ip/Marzetti-Classic-Ranch-Salad-Dressing-and-Dip-22-oz-Squeeze-Bottle/695230718?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&adsRedirect=true"
     },
     {
         "id": "dispensa_vinagre",
         "category": "dispensa",
         "es": "vinagre",
         "en": "vinegar",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 1.76,
+        "unit": "32 fl oz",
+        "location": "Aisle A8",
+        "url": "https://www.walmart.com/ip/Great-Value-Distilled-White-Vinegar-32-fl-oz/10450997?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1600&from=/search"
     },
     {
         "id": "extras_detergente",
         "category": "extras",
         "es": "detergente",
         "en": "detergent",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 11.48,
+        "unit": "120 Loads",
+        "location": "Aisle A23",
+        "url": "https://www.walmart.com/ip/ECOS-Lavender-Laundry-Detergent-110-Ounce/899409911?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&adsRedirect=true"
     },
     {
         "id": "extras_dishwasher_pods",
         "category": "extras",
         "es": "dishwasher pods",
         "en": "dishwasher pods",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 21.44,
+        "unit": "57 Count",
+        "location": "Aisle A22",
+        "url": "https://www.walmart.com/ip/Cascade-Platinum-Plus-Dishwasher-Pods-Dishwasher-Detergent-Dish-Detergent-Soap-Mountain-57-Count/8921658598?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1102&adsRedirect=true"
     },
     {
         "id": "extras_esponja",
         "category": "extras",
         "es": "esponja",
         "en": "sponge",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 4.68,
+        "unit": "4 Count",
+        "location": "Aisle A23",
+        "url": "https://www.walmart.com/ip/Scrub-Daddy-Sponge-Daddy-Scratch-Free-Multipurpose-Cleaning-Pad-BPA-Free-Polymer-Foam-Stain-Odor-Resistant-Kitchen-Sponge-4-Count/47659565?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1102&from=/search"
     },
     {
         "id": "extras_jabon_cocina",
         "category": "extras",
         "es": "jabon de cocina",
         "en": "dish soap",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 2.98,
+        "unit": "25 fl oz",
+        "location": "Aisle A22",
+        "url": "https://www.walmart.com/ip/ECOS-Hypoallergenic-Liquid-Dish-Soap-Free-Clear-25-Fluid-Ounce/218193090?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&adsRedirect=true"
     },
     {
         "id": "extras_jabon_cuerpo",
         "category": "extras",
         "es": "jabon de cuerpo",
         "en": "body wash / soap",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 12.47,
+        "unit": "28 fl oz",
+        "location": "Aisle G17",
+        "url": "https://www.walmart.com/ip/Method-Body-Wash-Simply-Nourish-28oz/2030690381?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&from=/search"
     },
     {
         "id": "extras_jabon_mano",
         "category": "extras",
         "es": "jabon de mano",
         "en": "hand soap",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 2.97,
+        "unit": "50 fl oz",
+        "location": "Aisle G18",
+        "url": "https://www.walmart.com/ip/Equate-Milk-and-Honey-Liquid-Hand-Soap-50-oz/1649931146?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1102&from=/search"
     },
     {
         "id": "extras_papel_aluminio",
         "category": "extras",
         "es": "papel aluminio",
         "en": "aluminum foil",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 4.47,
+        "unit": "75 sq ft",
+        "location": "Aisle A18",
+        "url": "https://www.walmart.com/ip/Great-Value-75-sq-ft-Aluminum-Foil/121815660?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1102&from=/search"
     },
     {
         "id": "extras_papel_bano",
         "category": "extras",
         "es": "papel de baño",
         "en": "toilet paper",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 19.98,
+        "unit": "24 Rolls",
+        "location": "Aisle A19",
+        "url": "https://www.walmart.com/ip/Scott-1000-Toilet-Paper-24-Rolls-1-000-Sheets-per-Roll/2098731831?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1102"
     },
     {
         "id": "extras_papel_cocina",
         "category": "extras",
         "es": "papel de cocina",
         "en": "paper towels",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 22.18,
+        "unit": "8 Rolls",
+        "location": "Aisle A20",
+        "url": "https://www.walmart.com/ip/Bounty-BASE-Paper-Towel-2-Ply-Select-a-Size-Roll-White/14600961556?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&adsRedirect=true"
     },
     {
         "id": "extras_papel_secadora",
         "category": "extras",
         "es": "papel de secadora",
         "en": "dryer sheets",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 9.97,
+        "unit": "240 Count",
+        "location": "Aisle A22",
+        "url": "https://www.walmart.com/ip/Gain-Fabric-Softener-Dryer-Sheets-Moonlight-Breeze-Scent-240-Count/203390104?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&from=/search"
     },
     {
         "id": "extras_pasta_diente",
         "category": "extras",
         "es": "pasta de diente",
         "en": "toothpaste",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 4.97,
+        "unit": "3 pack",
+        "location": "Aisle G12",
+        "url": "https://www.walmart.com/ip/Colgate-Cavity-Protection-Toothpaste-with-Fluoride-Great-Regular-Flavor-6-oz-3-pack/580400401?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1102&from=/search"
     },
     {
         "id": "extras_suavizador",
         "category": "extras",
         "es": "suavizador",
         "en": "fabric softener",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 12.97,
+        "unit": "190 Loads",
+        "location": "Aisle A22",
+        "url": "https://www.walmart.com/ip/Gain-Liquid-Laundry-Fabric-Softener-and-Conditioner-Original-Scent-140-fl-oz-190-Loads/1795412208?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&adsRedirect=true"
     },
     {
         "id": "extras_ziplocs",
         "category": "extras",
         "es": "ziplocs",
         "en": "zip bags",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 2.48,
+        "unit": " 40 Count",
+        "location": "Aisle A18",
+        "url": "https://www.walmart.com/ip/Great-Value-Fresh-Seal-Double-Zipper-Storage-Bags-Gallon-40-Count/11030056?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=VARIANT&athbdg=L1102&from=/search"
     }
 ]
+
 
 
