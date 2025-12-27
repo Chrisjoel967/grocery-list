@@ -574,13 +574,25 @@
     }
 
     function selectCategory(categoryKey) {
-      const allItems = getAllItems().filter(i => i.category === categoryKey);
-      for (const item of allItems) {
-        checkedSet.add(item.id);
-      }
-      saveState();
-      render();
+  const sectionItems = getAllItems().filter(i => i.category === categoryKey);
+
+  // Are ALL items in this section already checked?
+  const allChecked = sectionItems.every(i => checkedSet.has(i.id));
+
+  if (allChecked) {
+    // → Deselect all in section
+    for (const item of sectionItems) {
+      checkedSet.delete(item.id);
     }
+  } else {
+    // → Select all in section
+    for (const item of sectionItems) {
+      checkedSet.add(item.id);
+    }
+
+  saveState();
+  render();
+}
 
     (async function init() {
       await loadItemsFromJson();
@@ -590,3 +602,4 @@
   </script>
 </body>
 </html>
+
