@@ -63,38 +63,10 @@
     .section-title {
       display: flex;
       justify-content: space-between;
-      align-items: flex-end;
+      align-items: flex-start;
       gap: 0.5rem;
       margin-bottom: 0.25rem;
     }
-    
-.section-controls {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.15rem;
-}
-
-.section-small-btn {
-  border: none;
-  border-radius: 999px;
-  padding: 0.08rem 0.5rem;
-  font-size: 0.68rem;
-  cursor: pointer;
-  background: #e0e0e0;
-  color: #333;
-}
-
-.section-small-btn:active {
-  transform: scale(0.96);
-}
-
-@media (prefers-color-scheme: dark) {
-  .section-small-btn {
-    background: #424242;
-    color: #f5f5f5;
-  }
-}
 
     .section-labels {
       display: flex;
@@ -115,6 +87,28 @@
     .section-count {
       font-size: 0.75rem;
       color: #888;
+    }
+
+    .section-controls {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.15rem;
+    }
+
+    .section-small-btn {
+      border: none;
+      border-radius: 999px;
+      padding: 0.08rem 0.5rem;
+      font-size: 0.68rem;
+      cursor: pointer;
+      background: #e0e0e0;
+      color: #333;
+      box-shadow: none;
+    }
+
+    .section-small-btn:active {
+      transform: scale(0.96);
     }
 
     .item-row {
@@ -269,6 +263,10 @@
       button.qty-btn { background: #333; color: #f5f5f5; }
       .item-link { color: #90caf9; }
       #total-bar { border-top-color: #333; }
+      .section-small-btn {
+        background: #424242;
+        color: #f5f5f5;
+      }
     }
 
     @media print {
@@ -284,6 +282,9 @@
     <h1>Lista de Compras / Grocery List</h1>
 
     <div class="top-actions">
+      <button onclick="selectAllItems()">
+        Seleccionar todo / Select all
+      </button>
       <button class="secondary" onclick="clearChecked()">
         Limpiar marcados / Clear checked
       </button>
@@ -319,7 +320,6 @@
       { key: "extras",      icon: "🧴", es: "Extras",       en: "Household / Extras" }
     ];
 
-    // Items loaded from grocery-items.json
     let BASE_ITEMS = [];
 
     let checkedSet = new Set();
@@ -374,15 +374,6 @@
       const custom = customItems.map(it => ({ ...it, custom: true }));
       return base.concat(custom);
     }
-    
-function selectCategory(categoryKey) {
-  const allItems = getAllItems().filter(i => i.category === categoryKey);
-  for (const item of allItems) {
-    checkedSet.add(item.id);
-  }
-  saveState();
-  render();
-}
 
     function getQty(id) {
       const q = parseInt(quantities[id], 10);
@@ -413,20 +404,20 @@ function selectCategory(categoryKey) {
         section.className = "section";
 
         const header = document.createElement("div");
-header.className = "section-title";
-header.innerHTML = `
-  <div class="section-labels">
-    <div class="section-title-main">${cat.icon} ${cat.es}</div>
-    <div class="section-title-sub">${cat.en}</div>
-  </div>
-  <div class="section-controls">
-    <div class="section-count">${checkedCount}/${items.length}</div>
-    <button type="button" class="section-small-btn" onclick="selectCategory('${cat.key}')">
-      Seleccionar sección / Select section
-    </button>
-  </div>
-`;
-
+        header.className = "section-title";
+        header.innerHTML = `
+          <div class="section-labels">
+            <div class="section-title-main">${cat.icon} ${cat.es}</div>
+            <div class="section-title-sub">${cat.en}</div>
+          </div>
+          <div class="section-controls">
+            <div class="section-count">${checkedCount}/${items.length}</div>
+            <button type="button" class="section-small-btn" onclick="selectCategory('${cat.key}')">
+              Seleccionar sección / Select section
+            </button>
+          </div>
+        `;
+        section.appendChild(header);
 
         items.forEach(item => {
           const isChecked = checkedSet.has(item.id);
@@ -483,7 +474,7 @@ header.innerHTML = `
         container.appendChild(section);
       });
 
-      // --- calculate total of checked items ---
+      // Total estimated price (checked items only)
       let total = 0;
       allItems.forEach(item => {
         if (!checkedSet.has(item.id)) return;
@@ -575,10 +566,26 @@ header.innerHTML = `
       render();
     }
 
+    function selectAllItems() {
+      const allItems = getAllItems();
+      checkedSet = new Set(allItems.map(i => i.id));
+      saveState();
+      render();
+    }
+
+    function selectCategory(categoryKey) {
+      const allItems = getAllItems().filter(i => i.category === categoryKey);
+      for (const item of allItems) {
+        checkedSet.add(item.id);
+      }
+      saveState();
+      render();
+    }
+
     (async function init() {
-      await loadItemsFromJson();  // load JSON data
-      loadState();                // load localStorage state
-      render();                   // render UI
+      await loadItemsFromJson();
+      loadState();
+      render();
     })();
   </script>
 </body>
