@@ -305,7 +305,7 @@
   </div>
 
   <script>
-    const STORAGE_KEY = "grocery-bilingual-sections-v2";
+    const STORAGE_KEY = "grocery-bilingual-sections-v3";
 
     const CATEGORIES = [
       { key: "vegetales",   icon: "🥬", es: "Vegetales",    en: "Vegetables" },
@@ -321,7 +321,6 @@
     ];
 
     let BASE_ITEMS = [];
-
     let checkedSet = new Set();
     let quantities = {};
     let customItems = []; // {id, category, es, en, custom:true}
@@ -399,6 +398,10 @@
       CATEGORIES.forEach(cat => {
         const items = grouped.get(cat.key) || [];
         const checkedCount = items.filter(i => checkedSet.has(i.id)).length;
+        const allChecked = items.length > 0 && items.every(i => checkedSet.has(i.id));
+        const buttonLabel = allChecked
+          ? "Deseleccionar sección / Deselect section"
+          : "Seleccionar sección / Select section";
 
         const section = document.createElement("div");
         section.className = "section";
@@ -412,8 +415,12 @@
           </div>
           <div class="section-controls">
             <div class="section-count">${checkedCount}/${items.length}</div>
-            <button type="button" class="section-small-btn" onclick="selectCategory('${cat.key}')">
-              Seleccionar sección / Select section
+            <button
+              type="button"
+              class="section-small-btn"
+              data-cat="${cat.key}"
+              onclick="selectCategory('${cat.key}')">
+              ${buttonLabel}
             </button>
           </div>
         `;
@@ -574,25 +581,25 @@
     }
 
     function selectCategory(categoryKey) {
-  const sectionItems = getAllItems().filter(i => i.category === categoryKey);
+      const sectionItems = getAllItems().filter(i => i.category === categoryKey);
+      const allChecked = sectionItems.length > 0 &&
+        sectionItems.every(i => checkedSet.has(i.id));
 
-  // Are ALL items in this section already checked?
-  const allChecked = sectionItems.every(i => checkedSet.has(i.id));
+      if (allChecked) {
+        // Deselect all in this section
+        for (const item of sectionItems) {
+          checkedSet.delete(item.id);
+        }
+      } else {
+        // Select all in this section
+        for (const item of sectionItems) {
+          checkedSet.add(item.id);
+        }
+      }
 
-  if (allChecked) {
-    // → Deselect all in section
-    for (const item of sectionItems) {
-      checkedSet.delete(item.id);
+      saveState();
+      render();
     }
-  } else {
-    // → Select all in section
-    for (const item of sectionItems) {
-      checkedSet.add(item.id);
-    }
-
-  saveState();
-  render();
-}
 
     (async function init() {
       await loadItemsFromJson();
@@ -602,4 +609,3 @@
   </script>
 </body>
 </html>
-
