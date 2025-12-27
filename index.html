@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lista de Compras / Grocery List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 0.75rem;
+      background: #f5f5f5;
+    }
+
+    .app {
+      max-width: 650px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 0.75rem;
+      padding: 0.75rem 0.9rem 1rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+    }
+
+    h1 {
+      font-size: 1.35rem;
+      text-align: center;
+      margin: 0 0 0.25rem;
+    }
+
+    .top-actions {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 0.75rem;
+    }
+
+    button {
+      border: none;
+      border-radius: 999px;
+      padding: 0.35rem 0.8rem;
+      font-size: 0.75rem;
+      cursor: pointer;
+      background: #1976d2;
+      color: #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+
+    button.secondary { background: #9e9e9e; }
+    button.danger { background: #d32f2f; }
+    button:active { transform: scale(0.97); }
+
+    .section {
+      margin-top: 0.9rem;
+      padding-top: 0.55rem;
+      border-top: 1px solid #eee;
+    }
+
+    .section-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .section-labels {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    .section-title-main {
+      font-size: 0.98rem;
+      font-weight: 600;
+    }
+
+    .section-title-sub {
+      font-size: 0.8rem;
+      color: #777;
+    }
+
+    .section-count {
+      font-size: 0.75rem;
+      color: #888;
+    }
+
+    .item-row {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.18rem 0;
+    }
+
+    .item-main {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      flex: 1;
+    }
+
+    .item-main label {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      flex: 1;
+      cursor: pointer;
+    }
+
+    .item-main input[type="checkbox"] {
+      width: 1.1rem;
+      height: 1.1rem;
+    }
+
+    .item-text {
+      font-size: 0.9rem;
+    }
+
+    .item-sub {
+      font-size: 0.78rem;
+      color: #777;
+    }
+
+    .item-row.checked .item-text,
+    .item-row.checked .item-sub {
+      text-decoration: line-through;
+      color: #888;
+    }
+
+    .qty {
+      display: flex;
+      align-items: center;
+      gap: 0.2rem;
+    }
+
+    .qty input[type="number"] {
+      width: 2.6rem;
+      padding: 0.2rem 0.35rem;
+      border-radius: 0.5rem;
+      border: 1px solid #ccc;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    button.qty-btn {
+      background: #e0e0e0;
+      color: #333;
+      box-shadow: none;
+      padding: 0.1rem 0.45rem;
+      font-size: 0.8rem;
+      border-radius: 0.5rem;
+    }
+
+    button.qty-btn:active { transform: scale(0.95); }
+
+    button.delete-btn {
+      background: transparent;
+      color: #b71c1c;
+      box-shadow: none;
+      padding: 0 0.35rem;
+      font-size: 0.85rem;
+    }
+
+    .add-row {
+      display: flex;
+      gap: 0.4rem;
+      margin-top: 0.25rem;
+    }
+
+    .add-row input[type="text"] {
+      flex: 1;
+      padding: 0.3rem 0.5rem;
+      border-radius: 999px;
+      border: 1px solid #ccc;
+      font-size: 0.85rem;
+    }
+
+    .add-row input[type="number"] {
+      width: 3rem;
+      padding: 0.3rem 0.35rem;
+      border-radius: 0.5rem;
+      border: 1px solid #ccc;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    .add-row button {
+      padding: 0.3rem 0.7rem;
+      font-size: 0.85rem;
+    }
+
+    .item-extra {
+      font-size: 0.75rem;
+      color: #666;
+      margin-top: 0.15rem;
+    }
+
+    .item-extra-line {
+      margin-top: 0.02rem;
+    }
+
+    .item-link {
+      font-size: 0.78rem;
+      color: #1976d2;
+      text-decoration: underline;
+    }
+
+    #total-bar {
+      margin-top: 0.9rem;
+      padding-top: 0.6rem;
+      border-top: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    #total-bar span:last-child {
+      font-variant-numeric: tabular-nums;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #121212; }
+      .app { background: #1e1e1e; box-shadow: none; }
+      h1, .item-text, .item-sub, .section-title-main, .section-title-sub, .section-count, .item-extra, #total-bar {
+        color: #f5f5f5;
+      }
+      .section { border-top-color: #333; }
+      .add-row input[type="text"],
+      .add-row input[type="number"],
+      .qty input[type="number"] {
+        background: #121212;
+        border-color: #444;
+        color: #f5f5f5;
+      }
+      button.qty-btn { background: #333; color: #f5f5f5; }
+      .item-link { color: #90caf9; }
+      #total-bar { border-top-color: #333; }
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .app { box-shadow: none; border-radius: 0; }
+      .top-actions { display: none; }
+      button { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <h1>Lista de Compras / Grocery List</h1>
+
+    <div class="top-actions">
+      <button class="secondary" onclick="clearChecked()">
+        Limpiar marcados / Clear checked
+      </button>
+      <button class="danger" onclick="clearAll()">
+        Reiniciar todo / Reset all
+      </button>
+      <button class="secondary" onclick="window.print()">
+        Imprimir / Print
+      </button>
+    </div>
+
+    <div id="sections"></div>
+
+    <div id="total-bar">
+      <span>Total estimado / Estimated total:</span>
+      <span id="totalPriceValue">$0.00</span>
+    </div>
+  </div>
+
+  <script>
+    const STORAGE_KEY = "grocery-bilingual-sections-v2";
+
+    const CATEGORIES = [
+      { key: "vegetales",   icon: "🥬", es: "Vegetales",    en: "Vegetables" },
+      { key: "frutas",      icon: "🍎", es: "Frutas",       en: "Fruits" },
+      { key: "liquidos",    icon: "🧃", es: "Líquidos",     en: "Liquids / Drinks" },
+      { key: "carne",       icon: "🥩", es: "Carne",        en: "Meat" },
+      { key: "marisco",     icon: "🐟", es: "Marisco",      en: "Seafood" },
+      { key: "picadera",    icon: "🧀", es: "Picadera",     en: "Snacks / Appetizers" },
+      { key: "vitaminas",   icon: "💊", es: "Vitaminas",    en: "Vitamins" },
+      { key: "charcuteria", icon: "🍖", es: "Charcutería",  en: "Deli / Cold Cuts" },
+      { key: "dispensa",    icon: "🧺", es: "Dispensa",     en: "Pantry" },
+      { key: "extras",      icon: "🧴", es: "Extras",       en: "Household / Extras" }
+    ];
+
+    // Items loaded from grocery-items.json
+    let BASE_ITEMS = [];
+
+    let checkedSet = new Set();
+    let quantities = {};
+    let customItems = []; // {id, category, es, en, custom:true}
+
+    async function loadItemsFromJson() {
+      const container = document.getElementById("sections");
+      try {
+        const response = await fetch("grocery-items.json?v=" + Date.now());
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status);
+        }
+        const data = await response.json();
+        BASE_ITEMS = data.map(it => ({ ...it, custom: false }));
+      } catch (err) {
+        console.error("Error loading grocery-items.json", err);
+        container.innerHTML = `
+          <p style="color:#f44336;font-size:0.9rem;margin-top:0.5rem;">
+            Could not load <code>grocery-items.json</code>.<br>
+            Check that the JSON is valid and the file is next to this HTML.
+          </p>
+        `;
+        BASE_ITEMS = [];
+      }
+    }
+
+    function loadState() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return;
+        const s = JSON.parse(raw);
+        if (Array.isArray(s.checked)) checkedSet = new Set(s.checked);
+        if (s.quantities && typeof s.quantities === "object") quantities = s.quantities;
+        if (Array.isArray(s.customItems)) customItems = s.customItems;
+      } catch (e) {
+        console.error("Error loading state", e);
+      }
+    }
+
+    function saveState() {
+      const state = {
+        checked: Array.from(checkedSet),
+        quantities,
+        customItems
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function getAllItems() {
+      const base = BASE_ITEMS.map(it => ({ ...it, custom: false }));
+      const custom = customItems.map(it => ({ ...it, custom: true }));
+      return base.concat(custom);
+    }
+
+    function getQty(id) {
+      const q = parseInt(quantities[id], 10);
+      return isNaN(q) || q < 1 ? 1 : q;
+    }
+
+    function groupByCategory(items) {
+      const map = new Map();
+      for (const item of items) {
+        if (!map.has(item.category)) map.set(item.category, []);
+        map.get(item.category).push(item);
+      }
+      return map;
+    }
+
+    function render() {
+      const container = document.getElementById("sections");
+      container.innerHTML = "";
+
+      const allItems = getAllItems();
+      const grouped = groupByCategory(allItems);
+
+      CATEGORIES.forEach(cat => {
+        const items = grouped.get(cat.key) || [];
+        const checkedCount = items.filter(i => checkedSet.has(i.id)).length;
+
+        const section = document.createElement("div");
+        section.className = "section";
+
+        const header = document.createElement("div");
+        header.className = "section-title";
+        header.innerHTML = `
+          <div class="section-labels">
+            <div class="section-title-main">${cat.icon} ${cat.es}</div>
+            <div class="section-title-sub">${cat.en}</div>
+          </div>
+          <div class="section-count">${checkedCount}/${items.length}</div>
+        `;
+        section.appendChild(header);
+
+        items.forEach(item => {
+          const isChecked = checkedSet.has(item.id);
+          const qty = getQty(item.id);
+
+          const hasPrice = typeof item.price === "number";
+          const priceText = hasPrice
+            ? `$${item.price.toFixed(2)}${item.unit ? " / " + item.unit : ""}`
+            : "";
+          const locationText = item.location || "";
+          const url = item.url || "";
+
+          const row = document.createElement("div");
+          row.className = "item-row" + (isChecked ? " checked" : "");
+
+          row.innerHTML = `
+            <div class="item-main">
+              <label>
+                <input type="checkbox" ${isChecked ? "checked" : ""} 
+                  onchange="toggleItem('${item.id}', this.checked)">
+                <div>
+                  <div class="item-text">${item.es}</div>
+                  <div class="item-sub">${item.en}</div>
+                  <div class="item-extra">
+                    ${priceText ? `<div class="item-extra-line">${priceText}</div>` : ""}
+                    ${locationText ? `<div class="item-extra-line">${locationText}</div>` : ""}
+                    ${url ? `<div class="item-extra-line"><a href="${url}" target="_blank" rel="noopener noreferrer" class="item-link">Ver online / View online</a></div>` : ""}
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div class="qty">
+              <button type="button" class="qty-btn" onclick="changeQty('${item.id}', -1)">-</button>
+              <input type="number" min="1" value="${qty}" onchange="setQty('${item.id}', this.value)">
+              <button type="button" class="qty-btn" onclick="changeQty('${item.id}', 1)">+</button>
+            </div>
+            ${item.custom ? `
+              <button type="button" class="delete-btn" onclick="deleteCustomItem('${item.id}')">✕</button>
+            ` : ""}
+          `;
+
+          section.appendChild(row);
+        });
+
+        const addRow = document.createElement("div");
+        addRow.className = "add-row";
+        addRow.innerHTML = `
+          <input type="text" placeholder="Agregar artículo / Add item" data-add-name="${cat.key}">
+          <input type="number" min="1" value="1" data-add-qty="${cat.key}">
+          <button type="button" onclick="addCustomItem('${cat.key}')">+</button>
+        `;
+        section.appendChild(addRow);
+
+        container.appendChild(section);
+      });
+
+      // --- calculate total of checked items ---
+      let total = 0;
+      allItems.forEach(item => {
+        if (!checkedSet.has(item.id)) return;
+        if (typeof item.price !== "number") return;
+        const q = getQty(item.id);
+        total += item.price * q;
+      });
+
+      const totalEl = document.getElementById("totalPriceValue");
+      if (totalEl) {
+        totalEl.textContent = "$" + total.toFixed(2);
+      }
+    }
+
+    function toggleItem(id, isChecked) {
+      if (isChecked) checkedSet.add(id); else checkedSet.delete(id);
+      saveState();
+      render();
+    }
+
+    function changeQty(id, delta) {
+      const current = getQty(id);
+      const next = current + delta;
+      if (next < 1) return;
+      quantities[id] = next;
+      saveState();
+      render();
+    }
+
+    function setQty(id, value) {
+      let q = parseInt(value, 10);
+      if (isNaN(q) || q < 1) q = 1;
+      quantities[id] = q;
+      saveState();
+      render();
+    }
+
+    function addCustomItem(categoryKey) {
+      const nameInput = document.querySelector(`input[data-add-name="${categoryKey}"]`);
+      const qtyInput = document.querySelector(`input[data-add-qty="${categoryKey}"]`);
+      if (!nameInput || !qtyInput) return;
+
+      const text = nameInput.value.trim();
+      if (!text) return;
+
+      let qty = parseInt(qtyInput.value, 10);
+      if (isNaN(qty) || qty < 1) qty = 1;
+
+      const id = "c_" + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+
+      customItems.push({
+        id,
+        category: categoryKey,
+        es: text,
+        en: text,
+        custom: true
+      });
+
+      quantities[id] = qty;
+
+      nameInput.value = "";
+      qtyInput.value = "1";
+
+      saveState();
+      render();
+    }
+
+    function deleteCustomItem(id) {
+      customItems = customItems.filter(it => it.id !== id);
+      checkedSet.delete(id);
+      delete quantities[id];
+      saveState();
+      render();
+    }
+
+    function clearChecked() {
+      if (!confirm("¿Desmarcar todos los artículos? / Uncheck all items?")) return;
+      checkedSet.clear();
+      saveState();
+      render();
+    }
+
+    function clearAll() {
+      if (!confirm("¿Reiniciar todo? (Se borran cantidades y añadidos) / Reset everything?")) return;
+      checkedSet.clear();
+      quantities = {};
+      customItems = [];
+      saveState();
+      render();
+    }
+
+    (async function init() {
+      await loadItemsFromJson();  // load JSON data
+      loadState();                // load localStorage state
+      render();                   // render UI
+    })();
+  </script>
+</body>
+</html>

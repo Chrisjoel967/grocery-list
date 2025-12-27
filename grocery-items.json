@@ -1,0 +1,832 @@
+[
+    {
+        "id": "vegetales_batata",
+        "category": "vegetales",
+        "es": "batata",
+        "en": "sweet potato",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vegetales_brocoli",
+        "category": "vegetales",
+        "es": "brocoli",
+        "en": "broccoli",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vegetales_cebolla",
+        "category": "vegetales",
+        "es": "cebolla",
+        "en": "onion",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vegetales_champinones",
+        "category": "vegetales",
+        "es": "champiñones",
+        "en": "mushrooms",
+        "price": 2.04,
+        "unit": "",
+        "location": "Aisle A1",
+        "url": "https://www.walmart.com/ip/Fresh-Whole-Brown-Mushrooms-8-oz/16618670?classType=REGULAR&athbdg=L1100&from=/search"
+    },
+    {
+        "id": "vegetales_espinaca",
+        "category": "vegetales",
+        "es": "espinaca",
+        "en": "spinach",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vegetales_lechuga",
+        "category": "vegetales",
+        "es": "lechuga",
+        "en": "lettuce",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vegetales_papa",
+        "category": "vegetales",
+        "es": "papa",
+        "en": "potato",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vegetales_pimenton",
+        "category": "vegetales",
+        "es": "pimenton",
+        "en": "bell pepper",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vegetales_platano",
+        "category": "vegetales",
+        "es": "platano",
+        "en": "plantain",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vegetales_congelados",
+        "category": "vegetales",
+        "es": "vegetales congelados",
+        "en": "frozen vegetables",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vegetales_zanahoria",
+        "category": "vegetales",
+        "es": "zanahoria",
+        "en": "carrot",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vegetales_zuchini",
+        "category": "vegetales",
+        "es": "zuchini",
+        "en": "zucchini",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_aguacate",
+        "category": "frutas",
+        "es": "aguacate",
+        "en": "avocado",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_banana",
+        "category": "frutas",
+        "es": "banana",
+        "en": "banana",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_blueberries",
+        "category": "frutas",
+        "es": "blueberries",
+        "en": "blueberries",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_fresas",
+        "category": "frutas",
+        "es": "fresas",
+        "en": "strawberries",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_kiwi",
+        "category": "frutas",
+        "es": "kiwi",
+        "en": "kiwi",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_mandarina",
+        "category": "frutas",
+        "es": "mandarina",
+        "en": "mandarin",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_mango",
+        "category": "frutas",
+        "es": "mango",
+        "en": "mango",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_manzana",
+        "category": "frutas",
+        "es": "manzana",
+        "en": "apple",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_melon",
+        "category": "frutas",
+        "es": "melon",
+        "en": "melon",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_pera",
+        "category": "frutas",
+        "es": "pera",
+        "en": "pear",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "frutas_sandia",
+        "category": "frutas",
+        "es": "sandia",
+        "en": "watermelon",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "liquidos_jugo_china",
+        "category": "liquidos",
+        "es": "jugo de china",
+        "en": "orange juice",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "liquidos_jugo_mango",
+        "category": "liquidos",
+        "es": "jugo de mango",
+        "en": "mango juice",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "liquidos_jugo_manzana",
+        "category": "liquidos",
+        "es": "jugo de manzana",
+        "en": "apple juice",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "liquidos_leche",
+        "category": "liquidos",
+        "es": "leche",
+        "en": "milk",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "liquidos_limonada",
+        "category": "liquidos",
+        "es": "limonada",
+        "en": "lemonade",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "liquidos_yogurt",
+        "category": "liquidos",
+        "es": "yogurt",
+        "en": "yogurt",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "carne_cadera",
+        "category": "carne",
+        "es": "cadera",
+        "en": "beef hip / roast",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "carne_carne_molida",
+        "category": "carne",
+        "es": "carne molida",
+        "en": "ground beef",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "carne_milanesa",
+        "category": "carne",
+        "es": "milanesa",
+        "en": "breaded cutlet",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "carne_muslos",
+        "category": "carne",
+        "es": "muslos",
+        "en": "chicken thighs",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "carne_pavo",
+        "category": "carne",
+        "es": "pavo",
+        "en": "turkey",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "carne_pechuga",
+        "category": "carne",
+        "es": "pechuga",
+        "en": "chicken breast",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "carne_sausages",
+        "category": "carne",
+        "es": "sausages",
+        "en": "sausages",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "marisco_camarones",
+        "category": "marisco",
+        "es": "camarones",
+        "en": "shrimp",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "marisco_salmon",
+        "category": "marisco",
+        "es": "salmon",
+        "en": "salmon",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "marisco_tilapia",
+        "category": "marisco",
+        "es": "tilapia",
+        "en": "tilapia",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "picadera_almendras",
+        "category": "picadera",
+        "es": "almendras",
+        "en": "almonds",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "picadera_galletas",
+        "category": "picadera",
+        "es": "galletas",
+        "en": "crackers / cookies",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "picadera_popcorn",
+        "category": "picadera",
+        "es": "healthy pop corn",
+        "en": "healthy popcorn",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "picadera_humus",
+        "category": "picadera",
+        "es": "humus",
+        "en": "hummus",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vitaminas_c",
+        "category": "vitaminas",
+        "es": "C",
+        "en": "Vitamin C",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vitaminas_cq10",
+        "category": "vitaminas",
+        "es": "Cq10",
+        "en": "CoQ10",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vitaminas_d",
+        "category": "vitaminas",
+        "es": "D",
+        "en": "Vitamin D",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vitaminas_e",
+        "category": "vitaminas",
+        "es": "E",
+        "en": "Vitamin E",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vitaminas_multivitamina",
+        "category": "vitaminas",
+        "es": "multivitamina",
+        "en": "multivitamin",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vitaminas_omega3",
+        "category": "vitaminas",
+        "es": "Omega 3",
+        "en": "Omega 3",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "vitaminas_prenatal",
+        "category": "vitaminas",
+        "es": "prenatal",
+        "en": "prenatal vitamins",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "charcuteria_huevos",
+        "category": "charcuteria",
+        "es": "huevos",
+        "en": "eggs",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "charcuteria_jamon",
+        "category": "charcuteria",
+        "es": "jamon",
+        "en": "ham",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "charcuteria_queso",
+        "category": "charcuteria",
+        "es": "queso",
+        "en": "cheese",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "charcuteria_turkey_bacon",
+        "category": "charcuteria",
+        "es": "turkey bacon",
+        "en": "turkey bacon",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_aceite",
+        "category": "dispensa",
+        "es": "aceite",
+        "en": "oil",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_adobo",
+        "category": "dispensa",
+        "es": "adobo",
+        "en": "adobo seasoning",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_ajo",
+        "category": "dispensa",
+        "es": "ajo",
+        "en": "garlic",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_avena",
+        "category": "dispensa",
+        "es": "avena",
+        "en": "oats",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_cereal",
+        "category": "dispensa",
+        "es": "cereal",
+        "en": "cereal",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_harina_arepa",
+        "category": "dispensa",
+        "es": "harina de arepa",
+        "en": "arepa flour",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_harina_pancake",
+        "category": "dispensa",
+        "es": "harina de pancake",
+        "en": "pancake mix",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_paprika",
+        "category": "dispensa",
+        "es": "paprika",
+        "en": "paprika",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_pasta",
+        "category": "dispensa",
+        "es": "pasta",
+        "en": "pasta",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_pimienta",
+        "category": "dispensa",
+        "es": "pimienta",
+        "en": "pepper",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_quinoa",
+        "category": "dispensa",
+        "es": "quinoa",
+        "en": "quinoa",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_sal",
+        "category": "dispensa",
+        "es": "sal",
+        "en": "salt",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_salsa_ceaser",
+        "category": "dispensa",
+        "es": "salsa ceaser",
+        "en": "Caesar dressing",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_salsa_tomate",
+        "category": "dispensa",
+        "es": "salsa de tomate",
+        "en": "tomato sauce",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_salsa_ranch",
+        "category": "dispensa",
+        "es": "salsa ranch",
+        "en": "ranch dressing",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "dispensa_vinagre",
+        "category": "dispensa",
+        "es": "vinagre",
+        "en": "vinegar",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_detergente",
+        "category": "extras",
+        "es": "detergente",
+        "en": "detergent",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_dishwasher_pods",
+        "category": "extras",
+        "es": "dishwasher pods",
+        "en": "dishwasher pods",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_esponja",
+        "category": "extras",
+        "es": "esponja",
+        "en": "sponge",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_jabon_cocina",
+        "category": "extras",
+        "es": "jabon de cocina",
+        "en": "dish soap",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_jabon_cuerpo",
+        "category": "extras",
+        "es": "jabon de cuerpo",
+        "en": "body wash / soap",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_jabon_mano",
+        "category": "extras",
+        "es": "jabon de mano",
+        "en": "hand soap",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_papel_aluminio",
+        "category": "extras",
+        "es": "papel aluminio",
+        "en": "aluminum foil",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_papel_bano",
+        "category": "extras",
+        "es": "papel de baño",
+        "en": "toilet paper",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_papel_cocina",
+        "category": "extras",
+        "es": "papel de cocina",
+        "en": "paper towels",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_papel_secadora",
+        "category": "extras",
+        "es": "papel de secadora",
+        "en": "dryer sheets",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_pasta_diente",
+        "category": "extras",
+        "es": "pasta de diente",
+        "en": "toothpaste",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_suavizador",
+        "category": "extras",
+        "es": "suavizador",
+        "en": "fabric softener",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    },
+    {
+        "id": "extras_ziplocs",
+        "category": "extras",
+        "es": "ziplocs",
+        "en": "zip bags",
+        "price": null,
+        "unit": "",
+        "location": "",
+        "url": ""
+    }
+]
