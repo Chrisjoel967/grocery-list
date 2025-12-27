@@ -5,7 +5,7 @@
         "es": "batata",
         "en": "sweet potato",
         "price": 0.77,
-        "unit": "ea",
+        "unit": "each",
         "location": "Aisle AB1",
         "url": "https://www.walmart.com/ip/Sweet-Potatoes-Whole-Fresh-Each-Batata-Mameya/44390964?classType=REGULAR&athbdg=L1300&from=/search"
     },
@@ -14,20 +14,20 @@
         "category": "vegetales",
         "es": "brocoli",
         "en": "broccoli",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 1.83,
+        "unit": "each",
+        "location": "Aisle A1",
+        "url": "https://www.walmart.com/ip/Fresh-Broccoli-Crowns-Each/51259378?classType=REGULAR&athbdg=L1200&from=/search"
     },
     {
         "id": "vegetales_cebolla",
         "category": "vegetales",
         "es": "cebolla",
         "en": "onion",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 0.80,
+        "unit": "each",
+        "location": "Aisle AP1",
+        "url": "https://www.walmart.com/ip/Fresh-Whole-Yellow-Onion-Each/51259212?classType=REGULAR&athbdg=L1100&from=/search"
     },
     {
         "id": "vegetales_champinones",
@@ -35,7 +35,7 @@
         "es": "champiñones",
         "en": "mushrooms",
         "price": 2.04,
-        "unit": "",
+        "unit": "box",
         "location": "Aisle A1",
         "url": "https://www.walmart.com/ip/Fresh-Whole-Brown-Mushrooms-8-oz/16618670?classType=REGULAR&athbdg=L1100&from=/search"
     },
@@ -44,120 +44,120 @@
         "category": "vegetales",
         "es": "espinaca",
         "en": "spinach",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 1.84,
+        "unit": "bag",
+        "location": "Aisle A1",
+        "url": "https://www.walmart.com/ip/Marketside-Fresh-Spinach-10-oz-Bag-Fresh/13893738?classType=REGULAR&athbdg=L1100&from=/search"
     },
     {
         "id": "vegetales_lechuga",
         "category": "vegetales",
         "es": "lechuga",
         "en": "lettuce",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 3.86,
+        "unit": "bag",
+        "location": "Aisle A1",
+        "url": "https://www.walmart.com/ip/Fresh-Romaine-Lettuce-Hearts-3-Count-Each/10532755?classType=REGULAR&athbdg=L1100&from=/search"
     },
     {
         "id": "vegetales_papa",
         "category": "vegetales",
         "es": "papa",
         "en": "potato",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 4.54,
+        "unit": "10lbs bag",
+        "location": "Aisle AP10",
+        "url": "https://www.walmart.com/ip/Russet-Potatoes-10-lb-Bag-Whole/10449951?classType=REGULAR&athbdg=L1300&from=/search"
     },
     {
         "id": "vegetales_pimenton",
         "category": "vegetales",
         "es": "pimenton",
         "en": "bell pepper",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 2.47,
+        "unit": "bag",
+        "location": "Aisle A1",
+        "url": "https://www.walmart.com/ip/Fresh-Color-Bell-Peppers-3-Count/47770124?classType=REGULAR&athbdg=L1300&from=/search"
     },
     {
         "id": "vegetales_platano",
         "category": "vegetales",
         "es": "platano",
         "en": "plantain",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 0.58,
+        "unit": "each",
+        "location": "Aisle AP4",
+        "url": "https://www.walmart.com/ip/Fresh-Plantain-Each/34143814?classType=REGULAR&athbdg=L1200&from=/search"
     },
     {
         "id": "vegetales_congelados",
         "category": "vegetales",
         "es": "vegetales congelados",
         "en": "frozen vegetables",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 0.98,
+        "unit": "bag",
+        "location": "Aisle A32",
+        "url": "https://www.walmart.com/ip/Great-Value-Frozen-Mixed-Vegetables-12-oz-Steamable-Bag/817042496?classType=REGULAR&athbdg=L1200&from=/search"
     },
     {
         "id": "vegetales_zanahoria",
         "category": "vegetales",
         "es": "zanahoria",
         "en": "carrot",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 1.32,
+        "unit": "1lb (6 carrots per lb)",
+        "location": "Aisle A1",
+        "url": "https://www.walmart.com/ip/Fresh-Whole-Carrots-1-lb-Bag/44391515?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1200&from=/search"
     },
     {
         "id": "vegetales_zuchini",
         "category": "vegetales",
         "es": "zuchini",
         "en": "zucchini",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 0.95,
+        "unit": "each",
+        "location": "Aisle A1",
+        "url": "https://www.walmart.com/ip/Fresh-Zucchini-Squash-Each/44390947?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1200&from=/search"
     },
     {
         "id": "frutas_aguacate",
         "category": "frutas",
         "es": "aguacate",
         "en": "avocado",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 0.56,
+        "unit": "each",
+        "location": "Aisle AP9",
+        "url": "https://www.walmart.com/ip/Fresh-Hass-Avocados-Each/44390949?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1200&from=/search"
     },
     {
         "id": "frutas_banana",
         "category": "frutas",
         "es": "banana",
         "en": "banana",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 1.71,
+        "unit": "each (5-7 bananas)",
+        "location": "Aisle AP6",
+        "url": "https://www.walmart.com/ip/Marketside-Fresh-Organic-Bananas-Bunch/51259338?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1100&from=/search"
     },
     {
         "id": "frutas_blueberries",
         "category": "frutas",
         "es": "blueberries",
         "en": "blueberries",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 4.97,
+        "unit": "18 oz. Container",
+        "location": "Aisle AP2",
+        "url": "https://www.walmart.com/ip/Fresh-Blueberries-18-oz-Container/161115457?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&athbdg=L1100&from=/search"
     },
     {
         "id": "frutas_fresas",
         "category": "frutas",
         "es": "fresas",
         "en": "strawberries",
-        "price": null,
-        "unit": "",
-        "location": "",
-        "url": ""
+        "price": 9.22,
+        "unit": "2 lb, Container",
+        "location": "Aisle AP2",
+        "url": "https://www.walmart.com/ip/Fresh-Strawberries-2-lb-Container/22660282?fulfillmentIntent=In-store&filters=%5B%7B%22intent%22%3A%22fulfillmentIntent%22%2C%22values%22%3A%5B%22In-store%22%5D%7D%5D&classType=REGULAR&from=/search"
     },
     {
         "id": "frutas_kiwi",
@@ -830,4 +830,5 @@
         "url": ""
     }
 ]
+
 
